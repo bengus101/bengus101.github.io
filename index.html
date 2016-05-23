@@ -5,24 +5,108 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
 	<link rel="stylesheet" href="style.css">
 	<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/section-scroll.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	</head>
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container-fluid">
-			<h1>Ben Gustafson</h1>
-		</div>
-	</nav>
 	<body>
 	<div id="container">
+			<h1>BG</h1>
 		<div id="mugshot">
 			<img src="OrCropThisOne.jpg">
 		</div>
-		<div id="about">
-			<h1>About Me</h1>
-				<p>Hey there. My name is Ben, but I typically go by Gus.</p>
+		<div id="intro">
+			<h1>Ben Gustafson</h1>
+			<p>Tech recruiter turned web developer. Seattle-based. Aficionado of clean, efficient code & an elegant web experience. Love learning new languages/technologies & the pursuit of knowledge.</p>
 		</div>	
 	</div>
+	<div id="scroll-it" class="color-layer">
+  <!-- About Me/Skills Section -->
+  <div class="scrollable-section" data-section-title="About Me">
+  </div>
+  <section class="capp-well">
+    <h1 class="section-main-header">About Me</h1>
+    <section class="row">
+      <section class="left-float col s6">
+        <h3 class="section-h3">My Skills:</h3>
+      </section>
+    </section>
+  </section>
+  <!-- Portfolio Section -->
+  <div class="scrollable-section" data-section-title="Portfolio">
+  </div>
+  <section class="capp-well">
+    <h1 class="section-main-header">Portfolio</h1>
+  </section>
+  <!-- Resume -->
+  <div class="scrollable-section" data-section-title="Resume">
+  </div>
+  <section class="capp-well">
+    <h1 class="section-main-header">Resume</h1>
+    <p class="section-user-info"></p>
+  </section>
+  <!-- Location -->
+  <div class="scrollable-section" data-section-title="Resume">
+  </div>
+  <section class="capp-well">
+    <h1 class="section-main-header">Resume</h1>
+    <h2 class="job-at-company job-at-company-location">Select the resume you used</h2>
+    <a class="waves-effect waves-light btn modal-trigger edit-button-style" href="#modal4">Select</a>
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <!-- <form class="Company" action=""> -->
+         Resumes:
+         <%= form_for :resume do |r| %>
+          <% @resumes.each do |r| %>
+          <%= hidden_field :resume_id, :value => r.id %>
+          <div>
+            <%= r.name  %>
+            <%= button_to "Select", controller: "deck", action: "add_to_deck", resume_id: r.id, class: "btn" %>
+          </div>
+          <% end %>
+          <% end %>
+        <!-- </form> -->
+      </div>
+    </div>
+  </section>
+  <!-- Notes -->
+  <div class="scrollable-section" data-section-title="Notes">
+  </div>
+  <section class="capp-well">
+    <h1 class="section-main-header">Notes</h1>
+    <!-- Modal Trigger -->
+    <a class="waves-effect waves-light btn modal-trigger2 edit-button-style" href="#modal3">Add Note</a>
+    <!-- Modal Structure -->
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <form class="Company" action="">
+          Note: <input type="text" name="note" value=""><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+
+    <!-- Modal End -->
+
+    <h2 class="job-at-company">Job at Company</h2>
+    <p class="notes-p section-user-info">
+
+
+
+    </p>
+  </section>
+</div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#scroll-it').sectionScroll();
+    $('.modal-trigger').leanModal();
+    $('.modal-trigger2').leanModal();
+  });
+</script>
 	<script src="gus.js"></script>
+	<script src="section-scroll.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 	</body>

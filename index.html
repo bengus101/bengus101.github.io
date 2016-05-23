@@ -44,58 +44,14 @@
     <h1 class="section-main-header">Resume</h1>
     <p class="section-user-info"></p>
   </section>
-  <!-- Location -->
-  <div class="scrollable-section" data-section-title="Resume">
+  <!-- Contact -->
+  <div class="scrollable-section" data-section-title="Contact">
   </div>
   <section class="capp-well">
-    <h1 class="section-main-header">Resume</h1>
-    <h2 class="job-at-company job-at-company-location">Select the resume you used</h2>
-    <a class="waves-effect waves-light btn modal-trigger edit-button-style" href="#modal4">Select</a>
+    <h1 class="section-main-header">Contact</h1>
     <div id="modal4" class="modal">
-      <div class="modal-content">
-        <!-- <form class="Company" action=""> -->
-         Resumes:
-         <%= form_for :resume do |r| %>
-          <% @resumes.each do |r| %>
-          <%= hidden_field :resume_id, :value => r.id %>
-          <div>
-            <%= r.name  %>
-            <%= button_to "Select", controller: "deck", action: "add_to_deck", resume_id: r.id, class: "btn" %>
-          </div>
-          <% end %>
-          <% end %>
-        <!-- </form> -->
-      </div>
+      <div class="modal-content"></div>
     </div>
-  </section>
-  <!-- Notes -->
-  <div class="scrollable-section" data-section-title="Notes">
-  </div>
-  <section class="capp-well">
-    <h1 class="section-main-header">Notes</h1>
-    <!-- Modal Trigger -->
-    <a class="waves-effect waves-light btn modal-trigger2 edit-button-style" href="#modal3">Add Note</a>
-    <!-- Modal Structure -->
-    <div id="modal3" class="modal">
-      <div class="modal-content">
-        <form class="Company" action="">
-          Note: <input type="text" name="note" value=""><br>
-          <input type="submit" value="Submit">
-        </form>
-      </div>
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>
-
-    <!-- Modal End -->
-
-    <h2 class="job-at-company">Job at Company</h2>
-    <p class="notes-p section-user-info">
-
-
-
-    </p>
   </section>
 </div>
 <script type="text/javascript">

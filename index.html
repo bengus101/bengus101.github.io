@@ -12,7 +12,7 @@
 	 <div id="container">
 	   <h1>BG</h1>
     <div id="mugshot">
-		  <img src="OrCropThisOne.jpg">
+		  <img src="OrCropThisOne.jpg" alt="" class="circle responsive-img">
 		</div>
 		<div id="intro">
 			<h1>Ben Gustafson</h1>
@@ -27,7 +27,7 @@
         <section class="row">
           <section class="left-float-col-s6">
             <h3 class="section-h3">My Skills:</h3>
-            <ul>
+            <ul class="browser-default">
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
@@ -51,10 +51,17 @@
     </div>
   <!-- Portfolio Section -->
     <div class="scrollable-section" data-section-title="Portfolio">
-  </div>
-  <section class="capp-well">
-    <h1 class="section-main-header">Portfolio</h1>
-  </section>
+      <section class="capp-well">
+        <h1 class="section-main-header">Portfolio</h1>
+      </section>
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/250/250/nature/1"></a>
+        <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/250/250/nature/2"></a>
+        <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/250/250/nature/3"></a>
+        <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/250/250/nature/4"></a>
+        <a class="carousel-item" href="#five!"><img src="http://lorempixel.com/250/250/nature/5"></a>
+      </div>
+    </div>
   <!-- Resume -->
   <div class="scrollable-section" data-section-title="Resume">
   </div>
@@ -72,6 +79,7 @@
     </div>
   </section>
 </div>
+<!-- scroll-script functionality -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function(){
@@ -80,6 +88,7 @@
     // $('.modal-trigger2').leanModal();
   });
 </script>
+<!-- dependancy scripts -->
 	<script src="gus.js"></script>
 	<script src="jquery.section-scroll.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>

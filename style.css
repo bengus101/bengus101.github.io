@@ -57,6 +57,12 @@ h1 {
 	list-style-type: disc;
 }
 
+#scrollto-section-2 {
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+}
+
 .section-main-header {
 	text-align: center;
 	color: white;
@@ -64,5 +70,9 @@ h1 {
 
 .bullets-container {
 	height: 0%;
+}
+
+.broswer-default {
+	
 }
 

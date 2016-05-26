@@ -54,6 +54,10 @@ h1 {
 .left-float-col-s6 {
 	text-align: center;
 	color: white;
+	/*list-style-type: circle; !important;*/
+}
+
+ul li {
 	list-style-type: disc;
 }
 
@@ -68,11 +72,17 @@ h1 {
 	color: white;
 }
 
+#scrollto-section-3 {
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+}
+
 .bullets-container {
 	height: 0%;
 }
 
 .broswer-default {
-	
+
 }
 

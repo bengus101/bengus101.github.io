@@ -10,9 +10,9 @@ body {
 }
 
 #mugshot {
-	float: right;
+/*	float: right;
 	margin-top: 60px;
-	margin-right: 200px;
+	margin-right: 200px;*/
 	background-image: 300%;
 }
 
@@ -39,10 +39,27 @@ h1 {
 	border-width: 2px;
 }
 
+.section-main-header-1 {
+	text-align: center;
+	color: #009933;
+}
+
+#about-blurb {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 200%;
+	color: #009933;
+	word-wrap: break-word;
+}
+
 .left-float-col-s6 {
 	text-align: center;
 	color: white;
 	list-style-type: disc;
+}
+
+.section-main-header {
+	text-align: center;
+	color: white;
 }
 
 .bullets-container {

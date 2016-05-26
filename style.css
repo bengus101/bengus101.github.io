@@ -14,7 +14,6 @@ body {
 	margin-top: 60px;
 	margin-right: 200px;
 	background-image: 300%;
-	/*background-image: url(OrCropThisOne.jpg);*/
 }
 
 #intro {
@@ -31,6 +30,27 @@ body {
 h1 {
 	color: white;
 	font-family: 'Alegreya Sans', sans-serif;
+}
 
+#scrollto-section-1 {
+	text-align: center;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+}
+
+.section-h3 {
+	color: white;
+	text-align: center;
+}
+
+ul#skills {
+	text-align: center;
+	list-style: disc; 
+	color: white;
+}
+
+.bullets-container {
+	height: 0%;
 }
 

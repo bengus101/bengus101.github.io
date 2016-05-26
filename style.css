@@ -42,6 +42,7 @@ h1 {
 .section-main-header-1 {
 	text-align: center;
 	color: #009933;
+	font-family: 'Alegreya Sans', sans-serif;
 }
 
 #about-blurb {
@@ -54,11 +55,6 @@ h1 {
 .left-float-col-s6 {
 	text-align: center;
 	color: white;
-	/*list-style-type: circle; !important;*/
-}
-
-ul li {
-	list-style-type: disc;
 }
 
 #scrollto-section-2 {
@@ -82,7 +78,4 @@ ul li {
 	height: 0%;
 }
 
-.broswer-default {
-
-}
 

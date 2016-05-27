@@ -4,11 +4,6 @@ body {
 	background-repeat: no-repeat;
 }
 
-.navbar {
-	background-color: #009933;
-	font-family: 'Alegreya Sans', sans-serif;
-}
-
 #mugshot {
 /*	float: right;
 	margin-top: 60px;
@@ -16,20 +11,21 @@ body {
 	background-image: 300%;
 }
 
+#gus {
+	text-align: center;
+	color: white;
+}
+
 #intro {
 	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 200%;
 	color: white;
 	word-wrap: break-word;
+	text-align: center;
 }
 
 .container-fluid {
 	font-size: 300%;
-}
-
-h1 {
-	color: white;
-	font-family: 'Alegreya Sans', sans-serif;
 }
 
 #scrollto-section-1 {

@@ -4,24 +4,25 @@ body {
 	background-repeat: no-repeat;
 }
 
-#mugshot {
-/*	float: right;
-	margin-top: 60px;
-	margin-right: 200px;*/
-	background-image: 300%;
+#headshot {
+	border-style: solid;
+	border-color: white;
+	border-width: thick;
+	width: 16%;
+	margin-top: 50px;
+	margin-left: 1000px;
+	position: absolute;
 }
 
 #gus {
-	text-align: center;
 	color: white;
+	font-size: 700%;
 }
 
 #intro {
 	font-family: 'Alegreya Sans', sans-serif;
-	font-size: 200%;
+	font-size: 300%;
 	color: white;
-	word-wrap: break-word;
-	text-align: center;
 }
 
 .container-fluid {

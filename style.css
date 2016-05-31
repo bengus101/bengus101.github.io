@@ -4,6 +4,10 @@ body {
 	background-repeat: no-repeat;
 }
 
+.bullets-container {
+	height: 0%;
+}
+
 #headshot {
 	border-style: solid;
 	border-color: white;
@@ -67,10 +71,6 @@ body {
 	border-style: solid;
 	border-color: white;
 	border-width: 2px;
-}
-
-.bullets-container {
-	height: 0%;
 }
 
 

@@ -1,4 +1,4 @@
-body {
+#container {
 	background-image: url(./photos/Space_Needle.png);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -63,23 +63,11 @@ body {
 	margin-top: 100px;
 }
 
-#tictactoe {
+#tictactoe, #trivia, #chapel, #cappstone {
 	width: 200%;
 }
 
-#trivia {
-	width: 200%;
-}
-
-#chapel {
-	width: 200%;
-}
-
-#cappstone {
-	width: 200%;	
-}
-
-#email {
+#email, #phone {
 	outline-width: 2px;
 	outline-color: white;
 	outline-style: solid;
@@ -88,29 +76,11 @@ body {
 	width: 400px;
 }
 
-#phone {
-	outline-width: 2px;
-	outline-color: white;
-	outline-style: solid;
-	color: white;
-	font-family: 'Alegreya Sans', sans-serif;
-	width: 400px;
-}
-
-#linkedin {
+#linkedin, #github {
 	outline-width: 2px;
 	outline-color: white;
 	outline-style: solid;
 	color: white;
 	font-family: 'Alegreya Sans', sans-serif;
 	width: 503px;
-}
-
-#github {
-	outline-width: 2px;
-	outline-color: white;
-	outline-style: solid;
-	color: white;
-	font-family: 'Alegreya Sans', sans-serif;
-	width: 500px;
 }

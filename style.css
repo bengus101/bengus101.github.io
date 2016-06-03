@@ -36,14 +36,14 @@ body {
 
 .section-main-header-1 {
 	text-align: center;
-	color: #009933;
+	color: white;
 	font-family: 'Alegreya Sans', sans-serif;
 }
 
 #about-blurb {
 	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 200%;
-	color: #009933;
+	color: white;
 	word-wrap: break-word;
 	margin-bottom: 100px;
 }
@@ -85,16 +85,32 @@ body {
 	outline-style: solid;
 	color: white;
 	font-family: 'Alegreya Sans', sans-serif;
+	width: 400px;
 }
 
 #phone {
-
+	outline-width: 2px;
+	outline-color: white;
+	outline-style: solid;
+	color: white;
+	font-family: 'Alegreya Sans', sans-serif;
+	width: 400px;
 }
 
 #linkedin {
-
+	outline-width: 2px;
+	outline-color: white;
+	outline-style: solid;
+	color: white;
+	font-family: 'Alegreya Sans', sans-serif;
+	width: 503px;
 }
 
 #github {
-	
+	outline-width: 2px;
+	outline-color: white;
+	outline-style: solid;
+	color: white;
+	font-family: 'Alegreya Sans', sans-serif;
+	width: 500px;
 }

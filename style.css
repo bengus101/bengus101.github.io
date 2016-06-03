@@ -33,10 +33,6 @@ body {
 	font-size: 300%;
 }
 
-#scrollto-section-1 {
-	text-align: center;
-}
-
 .section-main-header-1 {
 	text-align: center;
 	color: #009933;
@@ -48,6 +44,7 @@ body {
 	font-size: 200%;
 	color: #009933;
 	word-wrap: break-word;
+	margin-bottom: 100px;
 }
 
 .left-float-col-s6 {
@@ -57,15 +54,11 @@ body {
 	font-size: 150%
 }
 
-#scrollto-section-2 {
-	border-style: solid;
-	border-color: white;
-	border-width: 2px;
-}
-
 .section-main-header {
 	text-align: center;
 	color: white;
+	font-family: 'Alegreya Sans', sans-serif;
+	margin: 0 auto;
 }
 
 #tictactoe {
@@ -92,6 +85,11 @@ body {
 
 #CV-header {
 	margin-bottom: 100px;
+}
+
+#CV-button {
+	margin-bottom: 150px;
+	margin-left: 620px;
 }
 
 #contact {

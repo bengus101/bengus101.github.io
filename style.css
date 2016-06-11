@@ -1,7 +1,12 @@
 #container {
-	background-image: url(./photos/Space_Needle.png);
+	background-image: url(./photos/Space_Needle1.png);
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; 
+}
+
+#baseplate {
+	margin-right: 50px;
+	margin-left: 50px;
 }
 
 .bullets-container {

@@ -69,31 +69,18 @@
 	margin-top: 100px;
 }
 
-#stuart, #cappstone, #trivia, #chapel, #tictactoe {
+#stuart, #cappstone, #trivia, #chapel {
 	width: 300px;
 	height: 350px;
 }
 
-#email, #phone {
-	outline-width: 2px;
-	outline-color: white;
-	outline-style: solid;
-	color: white;
-	font-family: 'Alegreya Sans', sans-serif;
-	width: 400px;
-}
-
-#linkedin, #github {
+#linkedin, #github, #email, #phone {
 	outline-width: 2px;
 	outline-color: white;
 	outline-style: solid;
 	color: white;
 	font-family: 'Alegreya Sans', sans-serif;
 	width: 503px;
-}
-
-#phone-card {
-	padding-left: 0px;
 }
 
 a {
